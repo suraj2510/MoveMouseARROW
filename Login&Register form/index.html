@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn&signUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+     <div class="hero">
+        <div class="formbox">
+            <div class="buttonbox">
+              <div id="btn"></div>
+                <button type="button" class="togglebutton" onclick="login()">Log in</button>
+                <button type="button" class="togglebutton" onclick="register()">Register</button>
+            </div>
+            <div class="social-link">
+                <a href=""><i class="ri-twitter-x-fill"></i></a>
+                <a href=""><i class="ri-linkedin-box-fill"></i></a>
+               <a href=""><i class="ri-instagram-line"></i></a>
+            </div>
+
+            <form id="login" class="input-group">
+                   <input type="text" class="input-field" placeholder="user name" required>
+                   <input type="text" class="input-field" placeholder="Enter Password" required>
+                   <input type="checkbox" class="check-box"><span>
+                    Remember Password
+                   </span> 
+                   <button type="submit" class="sbt-btn">Log in</button>
+
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="user name" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>
+                I agree the term and conditions
+                </span> 
+                <button type="submit" class="sbt-btn">Register</button>
+
+         </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="login">
+                <div class="username">
+                    <p>User Name</p>
+                    <input type="text" placeholder="username">
+                    <p>Enter Password</p>
+                    <input type="password" placeholder="password" required >
+                </div>
+                <div class="rememberPass">
+                    <input type="checkbox" value="checkbox" required>
+                    <p>Remember Password</p>
+                </div>
+                <button type="submit" class="btn">Log in</button> -->
+                <!-- <div class="Register">
+                    <p>User Name</p>
+                    <input type="text" placeholder="username">
+                    <p>Enter Password</p>
+                    <input type="password" placeholder="password" required>
+                </div>
+                <div class="rememberPass">
+                    <input type="checkbox" value="checkbox" required>
+                    <p>Remember Password</p>
+                </div>
+                <button type="submit" class="btn">Log in</button>
+            </div> -->
+
+
+        </div>
+
+    </div>
+    <script>
+     var x = document.getElementById("login")
+      var y= document.getElementById("register")
+      var z= document.getElementById("btn")
+
+      function register(){
+        x.style.left="450px";
+        y.style.left="50px";
+        z.style.left="110px";
+      }
+      function login(){
+        x.style.left="50px";
+        y.style.left="450px";
+        z.style.left="0px";
+      }
+
+
+    </script>
+</body>
+</html>

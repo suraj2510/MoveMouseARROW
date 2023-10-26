@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.formbox{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    background: antiquewhite;
+    margin: 6% auto;
+    padding: 5px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.buttonbox{
+    width: 160px;
+    position: relative;
+     margin: 35px auto;
+     border-radius: 40px;
+     box-shadow: 0 0 20px 1px rgb(24, 193, 168);
+     overflow: hidden;
+     
+     
+}
+.togglebutton{
+    padding: 10px 17px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: transparent;
+     position: relative;
+     font-size: 13.3px
+}
+.togglebutton:hover{
+    color: rgb(255, 10, 0);
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(18, 197, 210);
+background: radial-gradient(circle, rgb(50, 189, 228) 0%, rgba(26,175,164,1) 100%);
+    width: 80px;
+    height: 100%;
+    border-radius: 30px;
+    transition: .5s 
+}
+.social-link{
+    width: 180px;
+    margin: 30px auto;
+    padding: 8px 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-link a{
+    font-size: 22px;
+    text-decoration: none;
+}
+.social-link a:hover{
+    color: rgb(41, 174, 174);
+}
+
+.input-group{
+   top: 180pxpx; 
+   position:absolute;
+   width: 280px;
+   transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-right:0;
+    border-left: 0;
+    border-bottom: 1px solid black;
+outline: none;
+background: transparent;
+
+}
+
+.sbt-btn{
+    background-color: rgb(24, 203, 219);
+    /* color: blue; */
+    width: 85%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+ margin: 30px 10px 30px 0;   
+}
+span{
+    /* color: aqua; */
+    font-size: 14px ;
+    bottom: 70px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+   left: 450px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .username{
+   margin-left: 80px ;
+   align-content: 20px;
+   line-height: 30px;
+   margin-bottom: 20px;
+}
+.username input{
+    border-bottom: 1px solid #999;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+    background: transparent;
+}
+.rememberPass{
+    display: flex;
+    margin-left: 80px;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+   width: 65%;
+   height: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 65px;
+   border-radius: 20px;
+   color: black;
+   background-color: rgb(31, 186, 207);
+   font-size: 15px;
+   transition: all .5s;
+
+}
+.btn :hover{
+    padding-right: 10px;
+} */
