@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+
+}
+body{
+    background-color: #e56b58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clock{
+    width: 230px;
+    height: 230px;
+    background-color: #70c3b5;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+}
+img{
+    background-color: #8e8080;
+    border-radius: 2px;
+    width: 55px;
+    position: absolute;
+    left: 52%;
+    transform: translate(-50%);
+    top: 30px;
+
+}
+.number div{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: #240b36;
+    text-shadow: 1px 1px 2px black;
+}
+.twelve{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nine{
+    left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.six{
+   bottom: 6px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.three{
+   right: 7px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.arrow{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+     align-items: center;
+}
+.arrow::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px black;
+    z-index: 4;
+}
+.arrow div{
+    background-color: #fff;
+    width: 7px;
+    position: absolute;
+    height: 80px;
+    transform-origin: bottom center;
+    bottom: 50%;
+    z-index: 3;
+    border-radius: 50% 50% 0 0 ;
+    
+}
+ .arrow .hours{
+    height:45px;
+    transform: rotate();
+}
+.arrow .minutes{
+   height: 70px;
+transform: rotate();
+background-color: green;
+}
+.arrow .seconds{
+    height: 80px;
+    transform: rotate();
+    background-color: orange;
+}
+h1{
+    position: relative;
+color: rgb(243, 4, 4);
+top: 10px;
+left: 20px;
+border-bottom: 2px solid black;
+text-shadow: #70c3b5;
+}
